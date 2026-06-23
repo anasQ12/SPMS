@@ -39,17 +39,19 @@ export const authService = {
 
     const { data: userRoles } = await supabase
       .from('user_roles')
-      .select('roles(name)')
+      .select('role_id')
       .eq('user_id', profile.id);
 
-    const roles: UserRole[] = ((userRoles || []) as { roles: { name: string } | { name: string }[] | null }[])
-      .map(ur => {
-        const r = ur.roles;
-        if (!r) return null;
-        if (Array.isArray(r)) return r[0]?.name as UserRole;
-        return r.name as UserRole;
-      })
-      .filter(Boolean) as UserRole[];
+    const roleIds = (userRoles || []).map(ur => ur.role_id);
+    let roles: UserRole[] = [];
+
+    if (roleIds.length > 0) {
+      const { data: roleData } = await supabase
+        .from('roles')
+        .select('name')
+        .in('id', roleIds);
+      roles = (roleData || []).map(r => r.name as UserRole);
+    }
 
     return {
       ...profile,
