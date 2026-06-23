@@ -1,0 +1,192 @@
+{
+  "app": {
+    "name": "SPMS",
+    "fullName": "Student Progress Management System"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "students": "Students",
+    "goals": "Goals",
+    "evaluations": "Evaluations",
+    "recommendations": "Recommendations",
+    "performanceRecords": "Performance Records",
+    "reports": "Reports",
+    "users": "Users",
+    "analytics": "Analytics",
+    "finalEvaluations": "Final Evaluations",
+    "auditLogs": "Audit Logs",
+    "exports": "Exports",
+    "settings": "Settings",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "goalApprovals": "Goal Approvals",
+    "instructors": "Instructors"
+  },
+  "auth": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset password",
+    "sendReset": "Send reset link",
+    "backToLogin": "Back to sign in",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your SPMS account",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••"
+  },
+  "roles": {
+    "manager": "Manager",
+    "super_admin": "Super Admin",
+    "instructor": "Instructor",
+    "guardian": "Guardian",
+    "student": "Student"
+  },
+  "goals": {
+    "title": "Weekly Goals",
+    "add": "Add Goal",
+    "edit": "Edit Goal",
+    "goalText": "Goal Description",
+    "status": "Status",
+    "submit": "Submit Goals",
+    "deadlineNote": "Goals must be submitted by Sunday",
+    "maxGoals": "You can submit 1–3 goals per week",
+    "statuses": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "recommended_for_edit": "Needs Edit",
+      "locked": "Locked",
+      "completed": "Completed",
+      "carried_over": "Carried Over",
+      "missed_submission": "Missed"
+    }
+  },
+  "evaluations": {
+    "title": "Evaluations",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "final": "Final",
+    "score": "Score",
+    "publicComment": "Public Comment",
+    "privateNote": "Private Note",
+    "overallScore": "Overall Score",
+    "save": "Save Evaluation"
+  },
+  "performance": {
+    "title": "Performance Records",
+    "type": "Type",
+    "types": {
+      "award": "Award",
+      "achievement": "Achievement",
+      "recognition": "Recognition",
+      "warning": "Warning",
+      "attendance_issue": "Attendance Issue",
+      "behavior_issue": "Behavior Issue",
+      "risk_observation": "Risk Observation",
+      "other": "Other"
+    },
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "approve": "Approve",
+    "reject": "Reject",
+    "rejectionReason": "Rejection Reason"
+  },
+  "recommendations": {
+    "title": "Recommendations",
+    "type": "Type",
+    "types": {
+      "focus_area": "Focus Area",
+      "risk_attention": "Risk Attention",
+      "award_recommendation": "Award Recommendation",
+      "improvement_plan": "Improvement Plan"
+    },
+    "visibility": {
+      "public": "Public",
+      "admin_only": "Admin Only"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "download": "Download",
+    "loading": "Loading...",
+    "noData": "No data found",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "status": "Status",
+    "date": "Date",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive",
+    "all": "All",
+    "week": "Week",
+    "month": "Month",
+    "program": "Program",
+    "student": "Student",
+    "instructor": "Instructor",
+    "required": "This field is required",
+    "successSaved": "Saved successfully",
+    "successDeleted": "Deleted successfully",
+    "switchRole": "Switch Role",
+    "language": "Language"
+  },
+  "dashboard": {
+    "welcomeBack": "Welcome back",
+    "currentWeek": "Current Week",
+    "submittedGoals": "Submitted Goals",
+    "goalApprovalStatus": "Goal Status",
+    "latestScore": "Latest Score",
+    "totalStudents": "Total Students",
+    "pendingApprovals": "Pending Approvals",
+    "atRisk": "At Risk",
+    "completionRate": "Completion Rate"
+  },
+  "profile": {
+    "title": "My Profile",
+    "fullName": "Full Name",
+    "fullNameAr": "Full Name (Arabic)",
+    "dob": "Date of Birth",
+    "level": "Level",
+    "socialStatus": "Social Status",
+    "hobbies": "Hobbies",
+    "strengths": "Strengths",
+    "weaknesses": "Weaknesses",
+    "personalNotes": "Personal Notes",
+    "profilePicture": "Profile Picture",
+    "uploadPicture": "Upload Picture"
+  },
+  "reports": {
+    "title": "Reports",
+    "weekly": "Weekly Report",
+    "monthly": "Monthly Report",
+    "endProgram": "End of Program Report",
+    "downloadPDF": "Download PDF",
+    "exportExcel": "Export Excel"
+  },
+  "settings": {
+    "title": "Settings",
+    "programSettings": "Program Settings",
+    "activeProgram": "Active Program",
+    "goalDeadline": "Goal Deadline",
+    "maxGoals": "Max Goals per Week",
+    "evaluationCategories": "Evaluation Categories",
+    "programWeeks": "Program Weeks",
+    "languageSettings": "Language Settings"
+  }
+}
